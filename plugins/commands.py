@@ -30,7 +30,7 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     try:
-        stick_id = "CAACAgUAAxkBAAEQJmJpViid_0yscWKPfh3RMCY8pIkmXwACMAcAAqzbsFexyKU6FPQAAjgE"
+        stick_id = "CAACAgUAAxkBAAJf4Wm1eFlyXQIi7QoMXuBO33NiPy9HAAJXAAO_usYjt0RU6w_hApQeBA"
         try:
             sticker = await message.reply_sticker(sticker=stick_id)
         except Exception as e:
@@ -1071,7 +1071,7 @@ async def set_tutorial(client, message: Message):
     except IndexError:
         return await message.reply_text(
             f"<b>ᴄᴏᴍᴍᴀɴᴅ ɪɴᴄᴏᴍᴘʟᴇᴛᴇ !!\n\nᴜꜱᴇ ʟɪᴋᴇ ᴛʜɪꜱ -</b>\n\n"
-            f"<code>/{message.command[0]} https://t.me/dreamxbotz</code>"
+            f"<code>/{message.command[0]} https://t.me/iqbaleditzzz</code>"
         )
     if message.command[0] == "set_tutorial":
         tutorial_key = "tutorial"
